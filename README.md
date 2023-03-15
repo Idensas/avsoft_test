@@ -1,5 +1,7 @@
 # Task: Create a map of site and save that tree (nodes) as image
 
+Made within ~5 hours
+
 | URL | Deep | Parse_time | Links count       | Filename                                     |
 |---|---------------|------------|-----------|---------------------------------------------|
 |http://crawler-test.com  | 1 | ~0.6 sec | 413     | crawler-test.com_1.png  |
