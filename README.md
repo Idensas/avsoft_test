@@ -1,6 +1,6 @@
 # Task: Create a map of site and save that tree (nodes) as image
 
-Made within ~5 hours
+Made in ~5 hours
 
 | URL | Deep | Parse_time | Links count       | Filename                                     |
 |---|---------------|------------|-----------|---------------------------------------------|
