@@ -49,7 +49,7 @@ async def get_branch(url, node=None, deep=2, ses=None):
         if url in node:
             node.nodes.append(node[url])
             return
-        new = Node(url, head=node)
+        new = Node(url, head=node.head)
         node.nodes.append(new)
         node = new
 
@@ -104,7 +104,7 @@ if __name__ == '__main__':
         'http://google.com',
         'https://vk.com',
         'https://yandex.ru',
-        ('https://stackoverflow.com', 1)
+        ('https://stackoverflow.com', 1),
     ]
 
     sites = asyncio.run(get_sites_map(urls))
